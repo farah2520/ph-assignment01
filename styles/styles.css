@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#page1{
+    font-family: Fira Sans;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    width: 1520px;
+    height: 650px;
+
+}
+
+#page1 .head1 h3{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    padding: 0px;   
+    margin: 140px 72px;
+
+    position: static;
+    width: 746px;
+    height: 35px;
+ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+#page1 .head1 h1{
+    padding: 0px;
+    margin: -135px 72px;
+    position: static;
+    width: 746px;
+    height: 241px;
+    display: flex;
+    gap: 20;
+
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+#page1 .head1 button{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    /* Frame 2 */
+    position: static;
+    width: 324px;
+    height: 67px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 20px 41px 20px 41px;
+    margin: 140px 72px;
+}
+#page1 .img1{
+    /* Group */
+position: absolute;
+width: 521.03px;
+height: 329.21px;
+left: 920px;
+right: 66px;
+top: 20%;
+bottom: -2.3%;
+}
