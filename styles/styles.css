@@ -91,29 +91,34 @@ bottom: -2.3%;
 
 #page2{
     font-family: Fira Sans;
+    background: rgb(251, 255, 253);
+    display: flex;
+    width: 1370px;
+    height: 670px;
     font-weight: 700;
     letter-spacing: 0%;
-    text-align: left;
-
     position: static;
-    width: 1520px;
-    height: 60px;
-    
-    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 24;
+
+    gap: 24; 
     padding: 0px;
+    /* justify-content: flex-start; 
+    align-items: flex-start;  */
+    margin: 0px 72px 0px;
+    justify-content: center;
+
+   
 }
+
 #page2 .matha h1{
     color: rgb(14, 14, 14);
     font-size: 40;
-  
+
+    
 }
 #page2 p{
     color: rgba(14, 14, 14, 0.7);
-    font-size: 16;
+    font-size: 16; 
 }
 #page2 .global-card{
     display: flex;
@@ -122,12 +127,18 @@ bottom: -2.3%;
     justify-content: flex-start; 
     align-items: flex-start; 
     justify-content: space-between;
-    column-gap: 24px; 
+   
 }
 #page2 .global-card h2{
-    color: rgba(14, 14, 14, 0.8); 
+    color: rgba(14, 14, 14, 0.8);
     
-  
+    margin: 0px 20px;
+     
+}
+#page2 .global-card p{
+    color: rgba(14, 14, 14, 0.7);
+    margin: 10px 20px;
+    
 }
 #page2 .global-card button{
     color: rgb(255, 255, 255);
@@ -137,15 +148,16 @@ bottom: -2.3%;
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+    margin: 10px 20px;
+
+    
 }
 #page2 .global-card .card1{
     background-color: rgb(213, 170, 184);
-    width: 450px;
+    width: 350px;
     height: 320px;
     border-radius: 16px;
     
-
- 
 }
 #page2 .global-card .card1 button{
     background-color: rgb(156, 85, 97);
@@ -154,10 +166,10 @@ bottom: -2.3%;
 }
 #page2 .global-card .card2{
     background-color: rgb(170, 213, 191);
-    width: 450px;
+    width: 350px;
     height: 320px;
     border-radius: 16px;
-    margin: auto 0%;
+   
 }
 #page2 .global-card .card2 button{
     background-color: rgb(49, 147, 64);
@@ -166,10 +178,10 @@ bottom: -2.3%;
 
 #page2 .global-card .card3{
     background-color: rgb(190, 180, 226);
-    width: 450px;
+    width: 350px;
     height: 320px;
     border-radius: 16px;
-    margin: auto 0%;
+   
 }
 #page2 .global-card .card3 button{
     background-color: rgb(48, 25, 142);
